@@ -1,14 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 * {
   box-sizing: border-box;
+  border: 1px solid white;
 }
 html {
   font-size: 62.5%;
 }
+body {
+  padding: 0 2rem;
+  border: 1px solid white;
+}
 html,
 body {
   font-family: 'Muli', sans-serif;
-  background-color: #19354C;
   color: #F6F5F5;
+  line-height: 1.5;
+  margin: 0;
 }
 h1,
 h2,
@@ -29,26 +163,108 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 1900px;
   width: 100%;
-  margin: 0 auto;
 }
 .header {
-  margin: 30px 0;
   width: 100%;
-  height: 30vh;
+  margin: 0 auto;
+  height: 10vh;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
+  background-color: #19354C;
   border: 1px solid white;
 }
+.header h1 {
+  width: 30%;
+  margin: auto;
+  font-size: 1.8rem;
+  border: 1px solid white;
+  text-align: center;
+}
 .header nav {
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid white;
+  width: 20%;
 }
 .header nav a {
   color: #F6F5F5;
   text-decoration: none;
+  font-size: 1.8rem;
+}
+footer {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  font-size: 1.7rem;
+  padding: 2rem;
+  background-color: #19354C;
+  color: #F19D28;
+}
+.intro-section {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid black;
+}
+.intro-section .cta-text {
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.intro-section .cta-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 1.3rem 0;
+}
+.intro-section .cta-text button {
+  width: 35%;
+  padding: 1.3rem;
+  color: #F6F5F5;
+  background: #F19D28;
+  border-radius: 0.7rem;
+}
+.body-content {
+  margin: 0 auto;
+  max-width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 8rem 0;
+  border: 1px solid white;
+}
+.body-content .what-is-section {
+  margin: 0 auto;
+  width: 78%;
+  border: 1px solid white;
+  text-align: center;
+}
+.body-content .what-is-section p {
+  margin: 0 auto;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.meet-the-team {
+  margin: 0 auto;
+  max-width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 8rem 0;
+  border: 1px solid white;
+}
+.meet-the-team .meet-the-team-text {
+  text-align: center;
+}
+.meet-the-team .arrow {
+  font-size: 50px;
 }
