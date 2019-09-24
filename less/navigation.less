@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    margin:  0 auto;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: @main-bg-color;
+    justify-content: center;
+    text-align: center;
+
+    border: 1px solid white;
+
+    @media @mobile{
+        height: 15vh;
+        width:100%;
+        display:flex;
+        flex-flow: column wrap;
+    }
+
+    h1{
+        width: 30%;
+        margin: auto;
+        font-size: 1.8rem;
+        border: 1px solid white;
+        text-align: center;
+    }
+
+    nav{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid white;
+        width: 20%;
+
+        @media @mobile{
+            width: 100%;
+            display:flex;
+            flex-flow: row wrap;
+        }
+
+        a{
+            color: @white-smoke;
+            text-decoration: none;
+            font-size: 1.8rem;
+        }
+    }
+}
