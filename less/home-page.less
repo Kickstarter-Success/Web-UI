@@ -4,6 +4,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    padding: 10rem;
     /*background-image: url("../img/newspapers.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -13,6 +14,7 @@
         height: 30vh;
         display:flex;
         flex-flow: column wrap;
+        padding: 0;
     }
 
     border: 1px solid black;
@@ -34,7 +36,8 @@
             padding:1.3rem 0;
         }
         button{
-            width: 35%;
+            width: 50%;
+            margin: 0 auto;
             padding: 1.3rem;
             color:@main-font-color;
             background: @medium-orange;
@@ -119,4 +122,37 @@
         font-size: 50px;
         color: whitesmoke;
     }
+}
+
+.team-profiles{
+    display: flex;
+    flex-wrap: wrap;
+    padding: .1rem 0;
+
+    .team-profile{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 0;
+            padding: 2rem;
+            background: #f7f3f3;
+            color: #6e6e6e;
+            margin: 1.5rem;
+
+        .team-profile-img{
+            width: 15vw;
+            justify-self: center;
+                
+            img{
+                    width: 100%;
+                    border-radius: 50%;
+                    align-self: center;
+                    filter: grayscale(40%);
+            }
+        }
+        }
+    
+
 }
