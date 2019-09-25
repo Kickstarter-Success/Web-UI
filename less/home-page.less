@@ -1,3 +1,9 @@
+.upper-portion{
+    background: linear-gradient(90.4deg, #6AD1A4 0.21%, #A0D3BD 99.73%);
+    width: 100vw;
+    height: 100vh;
+}
+
 .intro-section{
     position: relative;
     margin: 0 auto;
@@ -5,11 +11,12 @@
     flex-flow: row wrap;
     align-items: center;
     padding: 10rem;
+
     /*background-image: url("../img/newspapers.jpg");
     background-repeat: no-repeat;
     background-position: center;
     */
-    border:1px solid white;
+
     @media @mobile{
         display:flex;
         flex-flow: column wrap;
@@ -17,22 +24,32 @@
     }
 
     .cta-text{
-        width: 50%;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        width: 691px;
+        line-height: 96px;
+        letter-spacing: 0.04em;
         margin: 0 auto;
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: space-between;
-        border:1px solid white;
+
+
         @media @mobile{
             width: 100%;
             flex-flow: column wrap;
         }
+
+        .white-line{
+            border-top: 4px solid white;
+            width: 149px;
+            height: 0;
+        }
         h1{
-            margin: 0 auto;
-            font-size: 7rem;
-            font-weight: bolder;
+            width: 80%;
+            font-size: 80px;
             padding:1.3rem 0;
-            border:1px solid white;
             text-align: left;
 
             @media @mobile{
@@ -57,7 +74,7 @@
     }
 
     img{
-        width: 30%;
+        width: 45%;
         margin: 0 auto;
 
         @media @mobile{
@@ -70,11 +87,15 @@
 
 .body-content{
     align-items: center;
-    border: 1px solid white;
-    color:@white-smoke;
+    color:black;
+    background-image:url('/img/KICK-3.png'); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1500px;
+
     .what-is-section{
         align-items: center;
-
+        margin-left: 8rem;
         @media @mobile{ 
             display:flex;
             flex-flow: column wrap;
@@ -82,19 +103,28 @@
         }
 
         h1{
-            width: 50%;
-            font-size: 7rem;
+            width: 40%;
+            font-size: 10rem;
+            color: black;
+            font-weight: 900;
+            padding-top: 5rem;
 
             @media @mobile{
                 width: 70%;
                 font-size:3rem;
             }
         }
-        border: 1px solid white;
+
         p{
-            width: 50%;
-            font-size: 2.5rem;
+            width: 45%;
+            font-size: 4rem;
+            font-weight: 300;
+            padding-top: 5rem;
+
             
+            .bold{
+                font-weight: 900
+            }
             @media @mobile{
                 width: 100%;
                 font-size: 2.2rem;
@@ -106,12 +136,43 @@
         }
     }
 
+    .kickstarter-stats-container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+        
+        .kickstarter-stats-top{
+            display:flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 5rem;
+
+            p{
+                width: 50%;
+                height: 50%
+            }
+        }
+
+        .kickstarter-stats-bot{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 5rem;
+            
+            p{
+                width: 50%;
+                height: 50%;
+            }
+        }
+    }
+
 
     .natural-language{
         margin: 0 auto;
         display: flex;
+        align-items: center;
         flex-flow: row wrap;
-        justify-content: center;
+
         padding: 5rem;
 
         border:1px solid white;
@@ -140,6 +201,7 @@
             }
             h2{
                 padding-bottom: 2rem;
+                color: black;
             }
             p{
                 font-size: 2rem;
@@ -184,6 +246,7 @@
             }
             h2{
                 padding-bottom: 2rem;
+                color: black;
             }
             p{
                 font-size: 2rem;
@@ -225,16 +288,19 @@
                 align-items: center;
                 text-align: center;
                 padding-top: 2rem;
+            }
+
             h2{
                 padding-bottom: 2rem;
+
             }
             p{
+
                 font-size: 2rem;
                 text-align: left;
                 font-weight: lighter;
             }
         }
-    }
 }
 
 }
