@@ -188,7 +188,8 @@ p {
 }
 @media (max-width:530px) {
   .navigation img {
-    width: 10%;
+    width: 12%;
+    align-content: center;
   }
 }
 .navigation nav {
@@ -202,8 +203,8 @@ p {
 }
 @media (max-width:530px) {
   .navigation nav {
-    margin: 0 auto;
-    width: 100%;
+    margin: auto;
+    width: 75%;
   }
 }
 .navigation nav a {
@@ -214,6 +215,7 @@ p {
 @media (max-width:530px) {
   .navigation nav a {
     text-align: center;
+    font-size: 2rem;
   }
 }
 footer {
@@ -469,10 +471,6 @@ footer {
     font-weight: lighter;
   }
 }
-.about-us {
-  margin: 0 auto;
-  max-width: 50%;
-}
 .meet-the-team {
   margin: 0 auto;
   display: flex;
@@ -490,14 +488,31 @@ footer {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+@media (max-width:530px) {
+  .about-us {
+    width: 100%;
+  }
 }
 .about-us .about-info h1 {
   text-align: center;
   font-size: 5rem;
 }
+@media (max-width:530px) {
+  .about-us .about-info h1 {
+    font-size: 3.8rem;
+  }
+}
 .about-us .about-info p {
   font-size: 2rem;
   text-align: center;
+}
+@media (max-width:530px) {
+  .about-us .about-info p {
+    font-size: 1.7rem;
+  }
 }
 .team-profiles {
   display: flex;
@@ -519,6 +534,11 @@ footer {
   box-shadow: 3px 3px 3px #ededed;
   margin: 1rem;
   border: 1px solid black;
+}
+@media (max-width:530px) {
+  .team-profiles .team-profile {
+    padding: 4rem;
+  }
 }
 .team-profiles .team-profile .team-profile-img {
   width: 150px;
