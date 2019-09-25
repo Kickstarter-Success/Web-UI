@@ -42,8 +42,8 @@
         }
 
         .white-line{
-            border-top: 4px solid white;
-            width: 149px;
+            border-top: 6px solid white;
+            width: 250px;
             height: 0;
         }
         h1{
@@ -223,30 +223,40 @@
 
     .bottom-portion{
         margin: 0 8rem;
+        padding-top: 7.5rem;
+
+        .green-line{
+            border-top: 6px solid @light-muted-green;
+            width: 250px;
+            height: 0;
+        }
 
         .natural-language{
             display: flex;
             align-items: center;
             flex-flow: row wrap;
-    
-
+            padding-bottom: 8rem;
+            
     
             border:1px solid white;
             @media @mobile{
                 padding: 0;
             }
+
             img{
-                width: 30%;
-    
+                width: 35%;
+                border-radius: 3px;
+                box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
                 @media @mobile{
                     width: 100%;
                     display: flex;
                     flex-flow: column wrap;
                 }
             }
-    
+        
             .natural-text{
-                width: 40%;
+                width: 60%;
+                padding-left: 15rem;
     
                 @media @mobile{
                     width:100%;
@@ -254,14 +264,20 @@
                     text-align: center;
                     padding-top: 2rem;
                 }
+
+
                 h2{
+                    font-size: 6rem;
                     padding-bottom: 2rem;
                     color: black;
+                    font-weight: 900;
+                    line-height: 10rem;
                 }
                 p{
+                    width: 50%;
+                    font-weight: 300;
                     font-size: 2rem;
                     text-align: left;
-                    font-weight: lighter;
                 }
             }
         }
@@ -270,7 +286,7 @@
             display: flex;
             flex-flow: row wrap;
             align-items: center;
-
+            padding-bottom: 8rem;
     
             border:1px solid white;
             @media @mobile{
@@ -279,8 +295,9 @@
                 padding-top:3rem;
             }
             img{
-                width: 30%;
-    
+                width: 35%;
+                border-radius: 3px;
+                box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
                 @media @mobile{
                     width: 100%;
                     display: flex;
@@ -289,8 +306,7 @@
             }
     
             .machine-text{
-                width: 40%;
-    
+                width: 43%;
                 @media @mobile{
                     width:100%;
                     align-items: center;
@@ -298,13 +314,16 @@
                     padding-top: 2rem;
                 }
                 h2{
+                    font-size: 6rem;
                     padding-bottom: 2rem;
                     color: black;
+                    font-weight: 900;
+                    line-height: 10rem;
                 }
                 p{
+                    width: 50%;
                     font-size: 2rem;
-                    text-align: left;
-                    font-weight: lighter;
+                    font-weight: 300;
                 }
             }
         }
@@ -313,6 +332,8 @@
             display: flex;
             flex-flow: row wrap;
             align-items: center;
+            padding-bottom: 8rem;
+            
     
             border:1px solid white;
             @media @mobile{
@@ -322,7 +343,9 @@
             }
     
             img{
-                width: 30%;
+                width: 35%;
+                border-radius: 3px;
+                box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
                 @media @mobile{
                     width: 100%;
                     display: flex;
@@ -331,9 +354,9 @@
             }
     
             .data-text{
-                margin: 0 auto;
-                width: 40%;
-    
+                width: 60%;
+                padding-left: 15rem;
+
                 @media @mobile{
                     width:100%;
                     align-items: center;
@@ -342,14 +365,17 @@
                 }
     
                 h2{
+                    font-size: 6rem;
                     padding-bottom: 2rem;
-    
+                    color: black;
+                    font-weight: 900;
+                    line-height: 10rem;
                 }
                 p{
     
+                    width: 50%;
                     font-size: 2rem;
-                    text-align: left;
-                    font-weight: lighter;
+                    font-weight: 300;
                 }
             }
     }

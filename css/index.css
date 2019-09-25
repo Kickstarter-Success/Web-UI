@@ -273,8 +273,8 @@ footer {
   }
 }
 .intro-section .cta-text .white-line {
-  border-top: 4px solid white;
-  width: 149px;
+  border-top: 6px solid white;
+  width: 250px;
   height: 0;
 }
 .intro-section .cta-text h1 {
@@ -434,11 +434,18 @@ footer {
 }
 .body-content .bottom-portion {
   margin: 0 8rem;
+  padding-top: 7.5rem;
+}
+.body-content .bottom-portion .green-line {
+  border-top: 6px solid #74d5abff;
+  width: 250px;
+  height: 0;
 }
 .body-content .bottom-portion .natural-language {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
+  padding-bottom: 8rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
@@ -447,7 +454,9 @@ footer {
   }
 }
 .body-content .bottom-portion .natural-language img {
-  width: 30%;
+  width: 35%;
+  border-radius: 3px;
+  box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .natural-language img {
@@ -457,7 +466,8 @@ footer {
   }
 }
 .body-content .bottom-portion .natural-language .natural-text {
-  width: 40%;
+  width: 60%;
+  padding-left: 15rem;
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .natural-language .natural-text {
@@ -468,18 +478,23 @@ footer {
   }
 }
 .body-content .bottom-portion .natural-language .natural-text h2 {
+  font-size: 6rem;
   padding-bottom: 2rem;
   color: black;
+  font-weight: 900;
+  line-height: 10rem;
 }
 .body-content .bottom-portion .natural-language .natural-text p {
+  width: 50%;
+  font-weight: 300;
   font-size: 2rem;
   text-align: left;
-  font-weight: lighter;
 }
 .body-content .bottom-portion .machine-learning {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  padding-bottom: 8rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
@@ -490,7 +505,9 @@ footer {
   }
 }
 .body-content .bottom-portion .machine-learning img {
-  width: 30%;
+  width: 35%;
+  border-radius: 3px;
+  box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .machine-learning img {
@@ -500,7 +517,7 @@ footer {
   }
 }
 .body-content .bottom-portion .machine-learning .machine-text {
-  width: 40%;
+  width: 43%;
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .machine-learning .machine-text {
@@ -511,18 +528,22 @@ footer {
   }
 }
 .body-content .bottom-portion .machine-learning .machine-text h2 {
+  font-size: 6rem;
   padding-bottom: 2rem;
   color: black;
+  font-weight: 900;
+  line-height: 10rem;
 }
 .body-content .bottom-portion .machine-learning .machine-text p {
+  width: 50%;
   font-size: 2rem;
-  text-align: left;
-  font-weight: lighter;
+  font-weight: 300;
 }
 .body-content .bottom-portion .data-analysis {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  padding-bottom: 8rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
@@ -533,7 +554,9 @@ footer {
   }
 }
 .body-content .bottom-portion .data-analysis img {
-  width: 30%;
+  width: 35%;
+  border-radius: 3px;
+  box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .data-analysis img {
@@ -543,8 +566,8 @@ footer {
   }
 }
 .body-content .bottom-portion .data-analysis .data-text {
-  margin: 0 auto;
-  width: 40%;
+  width: 60%;
+  padding-left: 15rem;
 }
 @media (max-width:530px) {
   .body-content .bottom-portion .data-analysis .data-text {
@@ -555,12 +578,16 @@ footer {
   }
 }
 .body-content .bottom-portion .data-analysis .data-text h2 {
+  font-size: 6rem;
   padding-bottom: 2rem;
+  color: black;
+  font-weight: 900;
+  line-height: 10rem;
 }
 .body-content .bottom-portion .data-analysis .data-text p {
+  width: 50%;
   font-size: 2rem;
-  text-align: left;
-  font-weight: lighter;
+  font-weight: 300;
 }
 .team-profiles {
   display: flex;
