@@ -371,21 +371,27 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 5rem;
+  height: 400px;
+  background-color: tomato;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-top p {
-  width: 50%;
-  height: 50%;
+  border: 1px solid white;
+  width: 25%;
+  height: 400px;
+  font-size: 5rem;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-bot {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 5rem;
+  height: 400px;
+  background-color: red;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-bot p {
-  width: 50%;
-  height: 50%;
+  border: 1px solid white;
+  width: 25%;
+  height: 400px;
+  font-size: 5rem;
 }
 .body-content .natural-language {
   margin: 0 auto;
@@ -521,49 +527,6 @@ footer {
   font-size: 2rem;
   text-align: left;
   font-weight: lighter;
-}
-.meet-the-team {
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  padding: 2rem 0;
-  font-size: 3rem;
-  border: 1px solid white;
-}
-.meet-the-team h2 {
-  text-align: center;
-  font-size: 2.5rem;
-}
-.about-us {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  margin: 0 auto;
-  width: 50%;
-}
-@media (max-width:530px) {
-  .about-us {
-    width: 100%;
-  }
-}
-.about-us .about-info h1 {
-  text-align: center;
-  font-size: 5rem;
-}
-@media (max-width:530px) {
-  .about-us .about-info h1 {
-    font-size: 3.8rem;
-  }
-}
-.about-us .about-info p {
-  font-size: 2rem;
-  text-align: center;
-}
-@media (max-width:530px) {
-  .about-us .about-info p {
-    font-size: 1.7rem;
-  }
 }
 .team-profiles {
   display: flex;
