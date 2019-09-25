@@ -1,5 +1,4 @@
 .navigation{
-    width: 100%;
     margin:  0 auto;
     height: 10vh;
     display: flex;
@@ -11,9 +10,7 @@
 
     @media @mobile{
         height: 15vh;
-        width:100%;
         display:flex;
-        flex-flow: column wrap;
     }
 
     img{
@@ -22,7 +19,10 @@
         margin-left: 3rem;
         font-size: 1.8rem;
         border: 1px solid white;
-        text-align: center;
+
+        @media @mobile{
+            width: 10%;
+        }
     }
 
     nav{
@@ -31,20 +31,19 @@
         align-items: center;
         justify-content: space-between;
         border: 1px solid white;
-        width: 30%;
+        width: 25%;
         margin-right: 1rem;
 
         @media @mobile{
             margin: 0 auto;
-            width: 80%;
-            flex-flow: row wrap;
-            text-align: center;
+            width: 100%;
+
         }
 
         a{
             color: @white-smoke;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 3rem;
             @media @mobile{
                 text-align: center;
             }
