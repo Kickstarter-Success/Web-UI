@@ -362,6 +362,18 @@ footer {
     border: 1px solid white;
   }
 }
+.body-content .green-1 {
+  background-color: #48c891ff;
+}
+.body-content .green-2 {
+  background-color: #05ce78ff;
+}
+.body-content .green-3 {
+  background-color: #74d5abff;
+}
+.body-content .green-4 {
+  background-color: #abd7c4ff;
+}
 .body-content .kickstarter-stats-container {
   display: flex;
   flex-direction: column;
@@ -372,13 +384,27 @@ footer {
   flex-direction: row;
   width: 100%;
   height: 400px;
+  margin-bottom: 50px;
   background-color: tomato;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-top p {
-  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 25%;
   height: 400px;
-  font-size: 5rem;
+  font-size: 4rem;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 5.5rem;
+  box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
+}
+.body-content .kickstarter-stats-container .kickstarter-stats-top p b {
+  font-size: 8rem;
+  font-weight: 800;
+  margin: 40px 0;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-bot {
   display: flex;
@@ -388,142 +414,150 @@ footer {
   background-color: red;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-bot p {
-  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 25%;
   height: 400px;
-  font-size: 5rem;
+  font-size: 4rem;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 5.5rem;
+  box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
-.body-content .natural-language {
-  margin: 0 auto;
+.body-content .kickstarter-stats-container .kickstarter-stats-bot p b {
+  font-size: 8rem;
+  font-weight: 800;
+  margin: 40px 0;
+}
+.body-content .bottom-portion {
+  margin: 0 8rem;
+}
+.body-content .bottom-portion .natural-language {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  padding: 5rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
-  .body-content .natural-language {
+  .body-content .bottom-portion .natural-language {
     padding: 0;
   }
 }
-.body-content .natural-language img {
+.body-content .bottom-portion .natural-language img {
   width: 30%;
 }
 @media (max-width:530px) {
-  .body-content .natural-language img {
+  .body-content .bottom-portion .natural-language img {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
   }
 }
-.body-content .natural-language .natural-text {
-  margin: 0 auto;
+.body-content .bottom-portion .natural-language .natural-text {
   width: 40%;
 }
 @media (max-width:530px) {
-  .body-content .natural-language .natural-text {
+  .body-content .bottom-portion .natural-language .natural-text {
     width: 100%;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
   }
 }
-.body-content .natural-language .natural-text h2 {
+.body-content .bottom-portion .natural-language .natural-text h2 {
   padding-bottom: 2rem;
   color: black;
 }
-.body-content .natural-language .natural-text p {
+.body-content .bottom-portion .natural-language .natural-text p {
   font-size: 2rem;
   text-align: left;
   font-weight: lighter;
 }
-.body-content .machine-learning {
-  margin: 0 auto;
+.body-content .bottom-portion .machine-learning {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding: 5rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
-  .body-content .machine-learning {
+  .body-content .bottom-portion .machine-learning {
     padding: 0;
     flex-direction: column-reverse;
     padding-top: 3rem;
   }
 }
-.body-content .machine-learning img {
+.body-content .bottom-portion .machine-learning img {
   width: 30%;
 }
 @media (max-width:530px) {
-  .body-content .machine-learning img {
+  .body-content .bottom-portion .machine-learning img {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
   }
 }
-.body-content .machine-learning .machine-text {
-  margin: 0 auto;
+.body-content .bottom-portion .machine-learning .machine-text {
   width: 40%;
 }
 @media (max-width:530px) {
-  .body-content .machine-learning .machine-text {
+  .body-content .bottom-portion .machine-learning .machine-text {
     width: 100%;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
   }
 }
-.body-content .machine-learning .machine-text h2 {
+.body-content .bottom-portion .machine-learning .machine-text h2 {
   padding-bottom: 2rem;
   color: black;
 }
-.body-content .machine-learning .machine-text p {
+.body-content .bottom-portion .machine-learning .machine-text p {
   font-size: 2rem;
   text-align: left;
   font-weight: lighter;
 }
-.body-content .data-analysis {
-  margin: 0 auto;
+.body-content .bottom-portion .data-analysis {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding: 5rem;
   border: 1px solid white;
 }
 @media (max-width:530px) {
-  .body-content .data-analysis {
+  .body-content .bottom-portion .data-analysis {
     padding: 0;
     flex-direction: column-reverse;
     padding-top: 3rem;
   }
 }
-.body-content .data-analysis img {
+.body-content .bottom-portion .data-analysis img {
   width: 30%;
 }
 @media (max-width:530px) {
-  .body-content .data-analysis img {
+  .body-content .bottom-portion .data-analysis img {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
   }
 }
-.body-content .data-analysis .data-text {
+.body-content .bottom-portion .data-analysis .data-text {
   margin: 0 auto;
   width: 40%;
 }
 @media (max-width:530px) {
-  .body-content .data-analysis .data-text {
+  .body-content .bottom-portion .data-analysis .data-text {
     width: 100%;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
   }
 }
-.body-content .data-analysis .data-text h2 {
+.body-content .bottom-portion .data-analysis .data-text h2 {
   padding-bottom: 2rem;
 }
-.body-content .data-analysis .data-text p {
+.body-content .bottom-portion .data-analysis .data-text p {
   font-size: 2rem;
   text-align: left;
   font-weight: lighter;
