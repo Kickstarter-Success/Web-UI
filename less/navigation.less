@@ -7,14 +7,19 @@
     width:90%;
 
     @media @mobile{
-        height: 15vh;
+        height: 20vh;
         display:flex;
+        flex-flow: column wrap;
+        widows: 100%;
     }
 
     .kickstarter-success-logo{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+
+
+
         img{
             width: 70px;
             margin: auto;
@@ -24,12 +29,14 @@
             @media @mobile{
                 width: 12%;
                 align-content: center;
+                margin-left: 6rem;
             }
         }
 
         p{
             font-size: 3rem;
             font-weight: 400;
+            
         }
     }
 
@@ -45,8 +52,11 @@
         
 
         @media @mobile{
-            margin: auto;
-            width: 75%;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+            justify-content: space-evenly;
+            
 
         }
 
@@ -58,9 +68,12 @@
             font-size: 32px;
             line-height: 38px;
             text-decoration: none;
+
             @media @mobile{
                 text-align: center;
-                font-size: 2rem;
+                align-items: center;
+                font-size: 3rem;
+                margin-left: 3rem;
             }
         }
     }
