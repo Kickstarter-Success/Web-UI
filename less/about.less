@@ -1,33 +1,42 @@
 
 .about-upper-portion{
     background: linear-gradient(90.4deg, #6AD1A4 0.21%, #A0D3BD 99.73%);
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
     
+    @media @mobile{
+        padding-bottom: 8rem;
+    }
     .about-us{
         display:flex;
         flex-flow: column wrap;
         align-items: center;
         margin:0 auto;
+
         @media @mobile{
             width: 100%;
         }
         .about-info{
             width: 50%;
             
+            @media @mobile{
+                width: 100%;
+            }
             h1{
                 text-align: center;
                 font-size: 5rem;
                 @media @mobile{
-                    font-size: 3.8rem;
+                    font-size: 5rem;
+                    padding-top: 2rem;
                 }
             }
     
             p{
-                font-size: 2rem;
+                font-size: 3rem;
                 text-align: center;
                 font-weight: 400;
+
                 @media @mobile{
-                    font-size: 1.7rem;
+                    font-size:2.5rem;
                 }
             }
         }
@@ -42,6 +51,9 @@
     padding: 2rem 0;
     font-size: 3rem;
 
+    @media @mobile{
+        padding: 3rem;
+    }
     h2{
         text-align: center;
         font-size: 2.5rem;
@@ -68,13 +80,12 @@
         border-radius: 6px;
         background: whitesmoke;
         color: #6e6e6e;
-        box-shadow: 3px 3px 3px #ededed;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.85);
         margin: 1rem;
         @media @mobile{
             padding: 4rem;
         }
 
-        border: 1px solid black;
         .team-profile-img{
             width: 150px;
             height: 150px;
