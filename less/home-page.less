@@ -1,6 +1,6 @@
 .upper-portion{
     background: linear-gradient(90.4deg, #74d5ab 0.21%, #abd7c4 99.73%);
-    width: 99vw;
+    width: 100%;
     height: 100vh;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.85);
 }
@@ -28,7 +28,7 @@
         font-style: normal;
         font-weight: 800;
         width: 50%;
-        line-height: 96px;
+        line-height: 9rem;
         letter-spacing: 0.04em;
         display: flex;
         flex-flow: column nowrap;
@@ -52,9 +52,10 @@
         }
         h1{
             width: 80%;
-            font-size: 85px;
+            font-size: 10rem;
             padding:1.3rem 0;
             text-align: left;
+            padding-bottom: 10rem;
 
             @media @mobile{
                 width: 100%;
@@ -64,22 +65,22 @@
         }
 
 
-        button{
-            margin: 0 auto;
-            padding: 1.3rem;
-            color:@main-font-color;
-            background: @medium-orange;
-            border-radius: .7rem;
+        // button{
+        //     margin: 0 auto;
+        //     padding: 1.3rem;
+        //     color:@main-font-color;
+        //     background: @medium-orange;
+        //     border-radius: .7rem;
 
-            @media @mobile{
-                width: 100%;
-            }
-        }
+        //     @media @mobile{
+        //         width: 100%;
+        //     }
+        // }
 
     }
 
     img{
-        width: 45%;
+        width: 50%;
 
 
         @media @mobile{
@@ -146,7 +147,7 @@
 
     .chart{
         background: linear-gradient(90.4deg, #74d5ab 0.21%, #abd7c4 99.73%);
-        width: 99vw;
+        width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -157,7 +158,7 @@
             display: none;
         }
 
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.85);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
         .chart-inner-content{
             display: flex;
             flex-direction: column;
@@ -208,10 +209,6 @@
 
     .green-3b{
         background-color: #74d5abff;
-
-        p{
-            line-height: 5.5rem;
-        }
     }
 
     .green-4{
@@ -235,7 +232,8 @@
             width: 100%;
             height: 400px;
             // padding: 5rem;
-            margin-bottom: 50px;
+            margin-bottom: 5rem;
+            line-height: 100%;
 
 
             p{
@@ -246,17 +244,17 @@
                 height: 400px;
                 font-size: 4rem;
                 align-items: center;
-                padding: 30px;
+                padding: 3rem;
                 text-align: center;
                 font-weight: 400;
-                line-height: 5.5rem;
+                line-height: 5rem;
                 box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
                 
 
                 b{
-                    font-size: 7rem;
+                    font-size: 6.5rem;
                     font-weight: 500;
-                    margin: 40px 0;
+                    margin: 4rem 0;
                     font-family: 'Prata', serif;
                 }
             }
@@ -268,24 +266,25 @@
             width: 100%;
             height: 400px;
             // padding: 5rem;
+            line-height: 100%;
             p{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 width: 25%;
                 height: 400px;
-                font-size: 4rem;
+                font-size: 3.8rem;
                 align-items: center;
-                padding: 30px;
+                padding: 3rem;
                 text-align: center;
                 font-weight: 400;
-                line-height: 5.5rem;
+                line-height: 5rem;
                 box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
 
                 b{
-                    font-size: 7rem;
+                    font-size: 6.5rem;
                     font-weight: 500;
-                    margin: 40px 0;
+                    margin: 2.5rem 0;
                     font-family: 'Prata', serif;
                 }
             }
@@ -336,6 +335,9 @@
         
             .natural-text{
                 width: 45%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
                 padding-top: 55px;
                 @media @mobile{
                     width:100%;
@@ -351,7 +353,7 @@
                     padding-bottom: 2rem;
                     color: black;
                     font-weight: 900;
-                    line-height: 10rem;
+                    line-height: 6rem;
 
                     @media @mobile{
                         line-height: 6rem;
