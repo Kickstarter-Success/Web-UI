@@ -428,7 +428,7 @@ footer {
   font-weight: 300;
 }
 .body-content .chart .chart-inner-content iframe {
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.85);
   background: white;
 }
 .body-content .green-1 {
