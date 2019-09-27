@@ -415,6 +415,10 @@ footer {
 .body-content .chart .chart-inner-content div {
   width: 78.5%;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .body-content .chart .chart-inner-content div h2 {
   font-size: 8rem;
