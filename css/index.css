@@ -184,6 +184,11 @@ h3 {
     margin-left: 0;
   }
 }
+@media (max-width:530px) {
+  .navigation .kickstarter-success-logo {
+    margin-left: 4rem;
+  }
+}
 .navigation .kickstarter-success-logo img {
   width: 6rem;
   margin: auto;
@@ -763,11 +768,6 @@ footer {
   background: linear-gradient(90.4deg, #74d5ab 0.21%, #abd7c4 99.73%);
   padding-bottom: 10rem;
 }
-@media (max-width: 1550px) {
-  .about-upper-portion {
-    padding-bottom: 0rem;
-  }
-}
 @media (max-width:530px) {
   .about-upper-portion {
     padding-bottom: 8rem;
@@ -779,11 +779,6 @@ footer {
   align-items: center;
   margin: 0 auto;
   padding: 5rem;
-}
-@media (max-width: 1550px) {
-  .about-upper-portion .about-us {
-    padding: 5rem 0;
-  }
 }
 @media (max-width:530px) {
   .about-upper-portion .about-us {
