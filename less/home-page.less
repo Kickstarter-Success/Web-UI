@@ -20,7 +20,6 @@
         display:flex;
         flex-flow: column wrap;
         padding: 0;
-        padding: 1rem;
     }
 
     .cta-text{
@@ -35,6 +34,11 @@
         justify-content: space-between;
 
 
+        @media @laptop{
+            flex-flow: row nowrap;
+            width: 30%;
+        }
+
         @media @mobile{
             width: 100%;
             flex-flow: column wrap;
@@ -43,9 +47,12 @@
 
         .white-line{
             border-top: 6px solid white;
-            width: 200px;
+            width: 30%;
             height: 0;
 
+            @media @laptop{
+                
+            }
             @media @mobile{
                 display: none;
             }
@@ -56,6 +63,11 @@
             padding:1.3rem 0;
             text-align: left;
             padding-bottom: 10rem;
+
+            @media @laptop{
+                font-size: 10rem;
+                width: 100%;
+            }
 
             @media @mobile{
                 width: 100%;
@@ -83,11 +95,15 @@
         width: 50%;
 
 
+        @media @laptop{
+            width: 70%;
+            padding-left: 12rem;
+        }
+
         @media @mobile{
-            width: 100%;
-            display: flex;
-            flex-flow: column wrap;
-            padding-top: 2rem;
+            width: 100vw;
+
+            padding-bottom: 5rem;
         }
     }
 }
@@ -222,10 +238,14 @@
         width: 80%;
         margin: 0 auto;
 
+        @media @laptop{
+            width: 90%;    
+        }
 
         @media @mobile{
             display: none;
         }
+
         .kickstarter-stats-top{
             display:flex;
             flex-direction: row;
@@ -250,6 +270,11 @@
                 line-height: 5rem;
                 box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
                 
+                @media @laptop{
+                    width: 30%;
+                    font-size: 3rem;
+                    line-height: 4rem;
+                }
 
                 b{
                     font-size: 6.5rem;
@@ -261,12 +286,14 @@
         }
 
         .kickstarter-stats-bot{
-            display: flex;
+            display:flex;
             flex-direction: row;
             width: 100%;
             height: 400px;
             // padding: 5rem;
+            margin-bottom: 5rem;
             line-height: 100%;
+
             p{
                 display: flex;
                 flex-direction: column;
@@ -281,11 +308,22 @@
                 line-height: 5rem;
                 box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.85);
 
+                @media @laptop{
+                    width: 30%;
+                    font-size: 3rem;
+                    line-height: 4rem;
+                }
+
                 b{
                     font-size: 6.5rem;
                     font-weight: 500;
                     margin: 2.5rem 0;
+                    line-height: 6rem;
                     font-family: 'Prata', serif;
+
+                    @media @laptop{
+                        font-size: 5.5rem;
+                    }
                 }
             }
         }
