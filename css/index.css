@@ -179,6 +179,11 @@ h3 {
   align-items: center;
   margin-left: 5rem;
 }
+@media (max-width: 1550px) {
+  .navigation .kickstarter-success-logo {
+    margin-left: 0;
+  }
+}
 .navigation .kickstarter-success-logo img {
   width: 6rem;
   margin: auto;
@@ -262,7 +267,6 @@ footer {
     display: flex;
     flex-flow: column wrap;
     padding: 0;
-    padding: 1rem;
   }
 }
 .intro-section .cta-text {
@@ -276,6 +280,12 @@ footer {
   flex-flow: column nowrap;
   justify-content: space-between;
 }
+@media (max-width: 1550px) {
+  .intro-section .cta-text {
+    flex-flow: row nowrap;
+    width: 30%;
+  }
+}
 @media (max-width:530px) {
   .intro-section .cta-text {
     width: 100%;
@@ -285,7 +295,7 @@ footer {
 }
 .intro-section .cta-text .white-line {
   border-top: 6px solid white;
-  width: 200px;
+  width: 30%;
   height: 0;
 }
 @media (max-width:530px) {
@@ -300,6 +310,12 @@ footer {
   text-align: left;
   padding-bottom: 10rem;
 }
+@media (max-width: 1550px) {
+  .intro-section .cta-text h1 {
+    font-size: 10rem;
+    width: 100%;
+  }
+}
 @media (max-width:530px) {
   .intro-section .cta-text h1 {
     width: 100%;
@@ -310,12 +326,16 @@ footer {
 .intro-section img {
   width: 50%;
 }
+@media (max-width: 1550px) {
+  .intro-section img {
+    width: 70%;
+    padding-left: 12rem;
+  }
+}
 @media (max-width:530px) {
   .intro-section img {
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    padding-top: 2rem;
+    width: 100vw;
+    padding-bottom: 5rem;
   }
 }
 .body-content {
@@ -433,6 +453,11 @@ footer {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 1550px) {
+  .body-content .kickstarter-stats-container {
+    width: 90%;
+  }
+}
 @media (max-width:530px) {
   .body-content .kickstarter-stats-container {
     display: none;
@@ -460,6 +485,13 @@ footer {
   line-height: 5rem;
   box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
+@media (max-width: 1550px) {
+  .body-content .kickstarter-stats-container .kickstarter-stats-top p {
+    width: 30%;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
 .body-content .kickstarter-stats-container .kickstarter-stats-top p b {
   font-size: 6.5rem;
   font-weight: 500;
@@ -471,6 +503,7 @@ footer {
   flex-direction: row;
   width: 100%;
   height: 400px;
+  margin-bottom: 5rem;
   line-height: 100%;
 }
 .body-content .kickstarter-stats-container .kickstarter-stats-bot p {
@@ -487,11 +520,24 @@ footer {
   line-height: 5rem;
   box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.85);
 }
+@media (max-width: 1550px) {
+  .body-content .kickstarter-stats-container .kickstarter-stats-bot p {
+    width: 30%;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
 .body-content .kickstarter-stats-container .kickstarter-stats-bot p b {
   font-size: 6.5rem;
   font-weight: 500;
   margin: 2.5rem 0;
+  line-height: 6rem;
   font-family: 'Prata', serif;
+}
+@media (max-width: 1550px) {
+  .body-content .kickstarter-stats-container .kickstarter-stats-bot p b {
+    font-size: 5.5rem;
+  }
 }
 .body-content .bottom-portion {
   margin: 0 8rem;
@@ -717,6 +763,11 @@ footer {
   background: linear-gradient(90.4deg, #74d5ab 0.21%, #abd7c4 99.73%);
   padding-bottom: 10rem;
 }
+@media (max-width: 1550px) {
+  .about-upper-portion {
+    padding-bottom: 0rem;
+  }
+}
 @media (max-width:530px) {
   .about-upper-portion {
     padding-bottom: 8rem;
@@ -728,6 +779,11 @@ footer {
   align-items: center;
   margin: 0 auto;
   padding: 5rem;
+}
+@media (max-width: 1550px) {
+  .about-upper-portion .about-us {
+    padding: 5rem 0;
+  }
 }
 @media (max-width:530px) {
   .about-upper-portion .about-us {
