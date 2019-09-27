@@ -186,7 +186,8 @@ h3 {
 }
 @media (max-width:530px) {
   .navigation .kickstarter-success-logo {
-    margin-left: 4rem;
+    margin-left: -1rem;
+    width: 100%;
   }
 }
 .navigation .kickstarter-success-logo img {
@@ -197,14 +198,20 @@ h3 {
 }
 @media (max-width:530px) {
   .navigation .kickstarter-success-logo img {
-    width: 12%;
+    width: 5rem;
     align-content: center;
-    margin-left: 6rem;
+    margin-left: auto;
   }
 }
 .navigation .kickstarter-success-logo p {
   font-size: 3rem;
   font-weight: 400;
+}
+@media (max-width:530px) {
+  .navigation .kickstarter-success-logo p {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
 }
 .navigation nav {
   margin: auto;
@@ -236,7 +243,6 @@ h3 {
     text-align: center;
     align-items: center;
     font-size: 3rem;
-    margin-left: 3rem;
   }
 }
 footer {
@@ -331,16 +337,15 @@ footer {
 .intro-section img {
   width: 50%;
 }
-@media (max-width: 1550px) {
+@media screen and (max-width: 1550px) and (min-width: 531px) {
   .intro-section img {
     width: 70%;
-    padding-left: 12rem;
+    padding-left: 15rem;
   }
 }
 @media (max-width:530px) {
   .intro-section img {
-    width: 100vw;
-    padding-bottom: 5rem;
+    width: 100%;
   }
 }
 .body-content {
@@ -770,7 +775,8 @@ footer {
 }
 @media (max-width:530px) {
   .about-upper-portion {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
+    width: 100%;
   }
 }
 .about-upper-portion .about-us {
@@ -783,6 +789,7 @@ footer {
 @media (max-width:530px) {
   .about-upper-portion .about-us {
     width: 100%;
+    padding: 4rem;
   }
 }
 .about-upper-portion .about-us .about-info {
@@ -801,7 +808,7 @@ footer {
 }
 @media (max-width:530px) {
   .about-upper-portion .about-us .about-info h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-top: 2rem;
   }
 }
@@ -812,7 +819,7 @@ footer {
 }
 @media (max-width:530px) {
   .about-upper-portion .about-us .about-info p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 .meet-the-team {
